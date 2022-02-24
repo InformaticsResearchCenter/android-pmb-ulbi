@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PMB-ULBI</string>
+
+    <string-array name="prodi_array">
+        <item>--SELECT PROGRAM STUDI--</item>
+        <item>D3 - Manajemen Logistik</item>
+        <item>D3 - Manajemen Bisnis</item>
+        <item>D3 - Sistem Informasi</item>
+        <item>D3 - Teknik Informatika</item>
+        <item>D3 - Akuntansi</item>
+        <item>D4 - Logistik Bisnis</item>
+        <item>D4 - Manajemen Bisnis</item>
+        <item>D4 - Teknik Informatika</item>
+        <item>D4 - Akuntansi Keuangan</item>
+        <item>D4 - Ecommerce Logistics</item>
+        <item>S1 - Manajemen Transportasi</item>
+        <item>S1 - Manajemen Logistik</item>
+    </string-array>
+    <string name="title_activity_main2">ULBI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ULBI</string>
+    <string name="nav_header_subtitle"> </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="jalur_pendaftaran">Jalur Pendaftaran</string>
+    <string name="biaya">Biaya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="program_studi">Program Studi</string>
+    <string name="pendaftaran">Pendaftaran</string>
+</resources>

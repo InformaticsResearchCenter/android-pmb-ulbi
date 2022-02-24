@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.majesty.pmb_ulbi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_jalur"
+        android:name="com.majesty.pmb_ulbi.ui.jalur.JalurFragment"
+        android:label="@string/jalur_pendaftaran"
+        tools:layout="@layout/fragment_jalur" />
+
+    <fragment
+        android:id="@+id/nav_biaya"
+        android:name="com.majesty.pmb_ulbi.ui.biaya.BiayaFragment"
+        android:label="@string/biaya"
+        tools:layout="@layout/fragment_biaya" />
+
+    <fragment
+        android:id="@+id/nav_jadwal"
+        android:name="com.majesty.pmb_ulbi.ui.jadwal.JadwalFragment"
+        android:label="@string/jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/nav_prodi"
+        android:name="com.majesty.pmb_ulbi.ui.prodi.ProdiFragment"
+        android:label="@string/program_studi"
+        tools:layout="@layout/fragment_prodi" />
+
+    <fragment
+        android:id="@+id/nav_daftar"
+        android:name="com.majesty.pmb_ulbi.ui.daftar.DaftarFragment"
+        android:label="@string/pendaftaran"
+        tools:layout="@layout/fragment_daftar" />
+</navigation>
